@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "rivalcounter",
+	"version": "${version}",
+	"name": "Rival Counter",
+	"description": "Kişisel PvP geçmişinde seni kimin öldürdüğünü ve rakip sayaçlarını gösterir.",
+	"authors": ["Codex"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.rivalcounter.client.RivalCounterClient"
+		]
+	},
+	"depends": {
+		"fabricloader": "0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
